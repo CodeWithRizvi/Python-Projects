@@ -1,0 +1,5 @@
+The error message "cannot pull with rebase: Your index contains 
+uncommitted changes" means that Git detected changes in your working 
+directory or staging area that haven't been committed. Git requires 
+a clean working directory before performing a git pull --rebase to 
+avoid conflicts between local changes and the changes from the remote.
